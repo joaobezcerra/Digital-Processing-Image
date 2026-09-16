@@ -76,14 +76,6 @@ A Lazarus/Free Pascal desktop application (`unit1.pas`, ~1050 lines) exposing ev
 
 All sample images live under [`images/`](images/), split into the originals the algorithms consumed and the outputs they produced.
 
-### Grayscale, Negative & Copy (C Implementation)
-
-| Original (Raw) | Copy | Grayscale | Negative |
-|:---:|:---:|:---:|:---:|
-| ![Original](images/raw/imagem.bmp) | ![Copy](images/processed/copia.bmp) | ![Grayscale](images/processed/imagem_Cinza.bmp) | ![Negative](images/processed/imagem_Negativa.bmp) |
-
-`copia.bmp` is a byte-for-byte duplicate produced by `copiarImagem`, used to verify the BMP header parsing/writing round-trip is lossless.
-
 ### Edge Detection (Pascal Implementation)
 
 | Original (Raw) | Laplacian Filter | Sobel Operator |
